@@ -1,0 +1,15 @@
+Read registration file and create a list of dictionaries
+(Use API to pull registration information)
+
+Find workers requesting Setup not on list
+Find workers that should be on Setup but are signed up for something else
+Find workers requesting Safety but not on list
+Find workers that should be on Safety but are signed up for something else
+Find workers that should be on BoD but are signed up for something else
+
+
+Setup additional fields on entry list dictionary: Assigned Work; Medical; Previous No Show; Work Heat override, Run Heat overridethicken_upswept_wield
+
+
+
+
