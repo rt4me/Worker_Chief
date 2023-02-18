@@ -1,13 +1,7 @@
 import logging
 import participant
 
-#Set Logging Level to print out
-logging.basicConfig(
-    level = logging.INFO,
-    format = '%(asctime)s [%(filename)s:%(lineno)s - %(funcName)s() ] %(levelname)s %(message)s',
-    datefmt = '%Y-%m-%d %H:%M:%S'
-    #,filename = 'basic.log'
-)
+
 partipant_list = []
 
 def determin_reg_list_src(reader_response):

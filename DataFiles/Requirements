@@ -1,5 +1,8 @@
-Read registration file and create a list of dictionaries
-(Use API to pull registration information)
+Read registration information from either of two sources. There will need to be logic to determine what source the information came from because they are in different formats:
+    Read registration file and create a list of dictionaries containing information for each participant based on the downloaded Worker Worksheet from MSR Reports
+    Use API to pull registration information
+        Get Event ID by doing a GET on the MSR API, providing the event number and the year of the event
+        Use Event ID to pull registration information
 
 Find workers requesting Setup not on list
 Find workers that should be on Setup but are signed up for something else
@@ -8,7 +11,7 @@ Find workers that should be on Safety but are signed up for something else
 Find workers that should be on BoD but are signed up for something else
 
 
-Setup additional fields on entry list dictionary: Assigned Work; Medical; Previous No Show; Work Heat override, Run Heat overridethicken_upswept_wield
+Setup additional fields on entry list dictionary: Assigned Work; Medical; Previous No Show; Work Heat override, Run Heat override
 
 
 

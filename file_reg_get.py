@@ -3,13 +3,6 @@ import csv
 
 REG_FILE = 'DataFiles/20200531-WorkerAssignment.csv'
 
-#Set Logging Level to print out
-logging.basicConfig(
-    level = logging.INFO,
-    format = '%(asctime)s [%(filename)s:%(lineno)s - %(funcName)s() ] %(levelname)s %(message)s',
-    datefmt = '%Y-%m-%d %H:%M:%S'
-    #,filename = 'basic.log'
-)
 
 def read_ax_reg(filename = REG_FILE):
     '''Read the WorkerAssignment csv file. Build a list of dictionaries from this information.

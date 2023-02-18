@@ -7,13 +7,6 @@ import format_reg_info_based_on_source
 
 load_dotenv()
 
-#Set Logging Level to print out
-logging.basicConfig(
-    level = logging.INFO,
-    format = '%(asctime)s [%(filename)s:%(lineno)s - %(funcName)s() ] %(levelname)s %(message)s',
-    datefmt = '%Y-%m-%d %H:%M:%S'
-    #,filename = 'basic.log'
-)
 
 #Calendar GET request: https://api.motorsportreg.com/rest/calendars/organization/{{Organization_id}}.json
 #Segment (work assignments) GET request: https://api.motorsportreg.com/rest/events/{{EventID}}/segments.json

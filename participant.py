@@ -12,10 +12,14 @@ class Participant:
     work_req: str
     member_id: int
     med_fg: bool = False
-    work_assign: str = ''
+    work_assign: str = field(init=False)
     work_heat_override: int = 0
     run_heat_override: int = 0
     active: bool = True
+
+    def __post_init__(self):
+        #Default the work_assign value to be the same as the requested value to start with
+        self.work_assign = self.work_req
 
 
 

@@ -1,12 +1,5 @@
 import logging
 
-#Set Logging Level to print out
-logging.basicConfig(
-    level = logging.INFO,
-    format = '%(asctime)s [%(filename)s:%(lineno)s - %(funcName)s() ] %(levelname)s %(message)s',
-    datefmt = '%Y-%m-%d %H:%M:%S'
-    #,filename = 'basic.log'
-)
 def find_requested_course_setup(reg_list):
     '''Take in the output of the read_ax_reg and returns all participants that requested to work course setup'''
 

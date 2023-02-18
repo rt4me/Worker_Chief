@@ -1,0 +1,6 @@
+Position,Value
+Prefix, N
+Prefix, M
+Prefix, X
+Prefix, W
+Suffix, L
