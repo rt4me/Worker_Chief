@@ -1,0 +1,32 @@
+Work_Position,Name
+Course Set Up,Michael Holzmann
+Course Set Up,Robert Jones
+Course Set Up,Jerrett Jan
+Course Set Up,Lorin Stolz
+Course Set Up,Brad McCann
+Course Set Up,Skip Abadie
+Safety,Tom Bergeron
+Safety,KJ Christopher
+Safety,Sue Anne Risshe
+Safety,Phil Osborne
+Safety,Sherrie Ledbetter
+Safety,Paul Kurtz
+Safety,Phil Adams
+Safety,Tim Boesche
+BOD,David Powers
+BOD,Leilane Jan
+BOD,Taylor Burnidge
+BOD,Miles Furlong
+BOD,Matt Lucas
+BOD,Jimmy Chen
+BOD,Alicia Waterman
+BOD,Gary Kramar
+BOD,Ashlea Brooks
+BOD,Kevin Garpne
+BOD,Brian Brooks
+BOD,Sam Graff
+Tech,Brandon Slater
+Tech,Scott Steider
+Tech,Silvio Zucchet
+Tech,Kelsey Karanges
+Tech,Eric McGill

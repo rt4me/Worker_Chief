@@ -19,7 +19,7 @@ def find_requested_course_setup(reg_list):
 
 
 def read_course_setup(filename = COURSE_SETUP_WORKERS):
-    '''Read provided filename (should be Course_Setup.txt) to get the official list of Course Setup workers'''
+    '''Read provided filename (should be Locked_work_assignments.txt) to get the official list of Course Setup workers'''
     logging.info('Entering read_course_setup')
     logging.debug(f'Setting up empty official_setup_workers list inside read_course_setup.')
 
