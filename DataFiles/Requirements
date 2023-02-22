@@ -14,5 +14,7 @@ Find workers that should be on BoD but are signed up for something else
 Setup additional fields on entry list dictionary: Assigned Work; Medical; Previous No Show; Work Heat override, Run Heat override
 
 
-
+Use enum to setup list of work assignment positions and possibly classes (see youtube: https://www.youtube.com/watch?v=LrtnLEkOwFE)
+Using this when looking for Participants with valid and invalid Course Setup, Safety, BOD request. One method to check but providing just the enum work position as a variable.
+And see about using list comprehension for it check
 

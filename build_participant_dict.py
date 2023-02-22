@@ -85,15 +85,7 @@ def get_reg_assignments(event_uri):
 #
 #=========================================================================================================
 
-#reg_file = 'DataFiles/20200531-WorkerAssignment.csv'
-
-def get_reg_file_path():
-    logging.debug('Asking for user to enter file name and path for Worker Sheet Report')
-    worker_assign_report = input('Enter path/name of Worker Assignment sheet (defaults to hard coded value): ') or 'DataFiles/20200531-WorkerAssignment.csv'
-    logging.info(f'file entry value: {worker_assign_report}')
-    return worker_assign_report
-
-def read_ax_reg_file(filename = get_reg_file_path()):
+def read_ax_reg_file(filename):
     '''Read the WorkerAssignment csv file. Build a list of dictionaries from this information.
     Not needed if reading data from the get_reg_assignments API call'''
 
@@ -114,26 +106,6 @@ def read_ax_reg_file(filename = get_reg_file_path()):
 
 
 
-#=========================================================================================================
-#
-#      This section is related to ...
-#
-#=========================================================================================================
-
-
-#The below functionality was moved to the main.py file.
-# def determin_reg_list_src(reader_response):
-#     '''Function pulls the first element from the response of either the read_reg_file or msr_app_reg_get classes to see where data was sourced from.
-#     Expected values are FILE or API. Depending on which value is found, it will sent the payload to the appropriate function to reformat to standard Participant data class'''
-#     if reader_response[0] == 'FILE':
-#         logging.info('Processing registration reformat based on FILE source')
-#         return(data_source_from_file(reader_response[1]))
-#     elif reader_response[0] == 'API':
-#         logging.info('Processing registration reformat based on API source')
-#         return(data_source_from_api(reader_response[1]))
-#     else:
-#         logging.info('Registration source not recognized as FILE or API')
-#         return('Registration source not recognized as FILE or API')
 
 
 def data_source_from_file(reg_list):
